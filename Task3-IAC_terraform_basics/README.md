@@ -53,7 +53,7 @@ to plan future changes. Never edit it manually.
 ---
 
 ## Commands
-
+Linux/WSL UBUNTU Commands
 ```bash
 # Initialize Terraform
 terraform init
