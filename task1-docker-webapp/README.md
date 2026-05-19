@@ -1,6 +1,6 @@
 # Task 1 — Dockerize a Python Web App
 
-**Intern:** KVSajith34  
+**Intern:** KVS Ajith  
 **Internship:** Alfido Tech — DevOps Track  
 **Task:** Containerize a Flask web application with PostgreSQL using Docker
 
@@ -57,11 +57,13 @@ task1-docker-webapp/
 ### Start Application
 ```bash
 docker compose up --build
+--Linux/WSL UBUNTU Commands
 ```
 
 ### Stop Application
 ```bash
 docker compose down
+--Linux/WSL UBUNTU Commands
 ```
 
 ---
@@ -79,7 +81,7 @@ docker compose down
 ---
 
 ## Commands Reference
-
+--Linux/WSL UBUNTU Commands
 ```bash
 # Build image only
 docker build -t flask-app .
