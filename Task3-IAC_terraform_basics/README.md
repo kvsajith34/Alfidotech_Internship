@@ -1,6 +1,6 @@
 # Task 3 — Infrastructure as Code with Terraform
 
-**Intern:** KVSajith34  
+**Intern:** KVS Ajith
 **Internship:** Alfido Tech — DevOps Track  
 **Task:** Provision ML infrastructure using Terraform + LocalStack
 
@@ -53,7 +53,7 @@ to plan future changes. Never edit it manually.
 ---
 
 ## Commands
-
+Linux/WSL UBUNTU Commands
 ```bash
 # Initialize Terraform
 terraform init
