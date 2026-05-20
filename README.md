@@ -9,7 +9,7 @@
 ![Terraform](https://img.shields.io/badge/Terraform-1.15.3-purple?style=for-the-badge&logo=terraform)
 ![Prometheus](https://img.shields.io/badge/Prometheus-2.48.0-red?style=for-the-badge&logo=prometheus)
 
-**Intern:** Venkata Sai Ajith Kancheti &nbsp;|&nbsp; **ID:** BS/REG/120128 &nbsp;|&nbsp; **GitHub:** [@kvsajith34](https://github.com/kvsajith34)
+**Intern:** Venkata Sai Ajith Kancheti &nbsp;|&nbsp; **GitHub:** [@kvsajith34](https://github.com/kvsajith34)
 
 </div>
 
@@ -259,7 +259,6 @@ All tasks include PDF submission documents with:
 
 **Venkata Sai Ajith Kancheti**
 DevOps Intern — Alfido Tech
-Candidate ID: BS/REG/120128
 GitHub: [@kvsajith34](https://github.com/kvsajith34)
 
 > *AIML student with a focus on MLOps, DevOps automation, and cloud-native infrastructure.*
