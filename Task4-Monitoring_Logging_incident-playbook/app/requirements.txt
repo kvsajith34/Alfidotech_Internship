@@ -1,0 +1,5 @@
+flask==3.0.0
+scikit-learn==1.4.0
+numpy==1.26.4
+gunicorn==21.2.0
+prometheus-client==0.20.0

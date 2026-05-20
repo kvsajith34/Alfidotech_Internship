@@ -1,0 +1,39 @@
+groups:
+  - name: ml_api_alerts
+    rules:
+
+      - alert: MLAPIDown
+        expr: up{job="ml-inference-api"} == 0
+        for: 30s
+        labels:
+          severity: critical
+        annotations:
+          summary: "ML Inference API is DOWN"
+          description: "The ML API has been unreachable for 30 seconds."
+
+      - alert: HighErrorRate
+        expr: rate(ml_error_total[5m]) > 0.1
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High ML prediction error rate"
+          description: "Error rate exceeded 0.1 errors/sec over 5 minutes."
+
+      - alert: HighRequestLatency
+        expr: histogram_quantile(0.95, rate(ml_request_latency_seconds_bucket[5m])) > 0.5
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High ML API latency (P95 > 500ms)"
+          description: "95th percentile latency exceeded 500ms."
+
+      - alert: LowPredictionConfidence
+        expr: ml_prediction_confidence < 0.7
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Low model prediction confidence"
+          description: "Model confidence dropped below 70% — possible data drift."
